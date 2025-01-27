@@ -12,5 +12,5 @@ COPY . /workspace
 # Install any Python dependencies
 RUN pip install -r requirements.txt
 
-# Expose port 5000 for the Flask app
-EXPOSE 5000
+# Expose port 8888 for Jupyter Notebook
+EXPOSE 8888
